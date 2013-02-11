@@ -183,13 +183,47 @@ body {
 	height: 600px;
 }
 #result {
-
 	height: 600px;
 }
 #code {
-
+	text-align: left;
+	font-size: 120%;
 	height: 600px;
 }
 h2 {
 	margin-top: 100px;
+}
+
+/* slider */
+#width_amount,
+#height_amount,
+#border_width_amount,
+#border_radius_amount {
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	cursor: pointer;
+	border: 0;
+	color: #f6931f;
+	font-weight: bold;
+}
+
+label {
+	margin: 0px;
+	float:left;
+}
+
+#element {
+	margin: 0 auto;
+	background: #339BB9;
+	width: 200px;
+	height: 200px;
+	border-radius: 3px;
+	border-width: 0px;
+	border-color: #000000;
+}
+.code-property {
+	color: #339BB9;
 }
